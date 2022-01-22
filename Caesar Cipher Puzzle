@@ -3,6 +3,7 @@
         function encrypt(text, s)
         {
                 let result=""
+                //using for loop
                 for (let i = 0; i < text.length; i++)
                 {
                         let char = text[i];
@@ -22,6 +23,7 @@
         
         let text = "wxyz";
         let s = 3;
+        //output or print
         document.write("Text : " + text + "<br>");
         document.write("Shift : " + s + "<br>");
         document.write("Cipher: " + encrypt(text, s) + "<br>");
